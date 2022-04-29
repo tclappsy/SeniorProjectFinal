@@ -1,0 +1,26 @@
+
+
+.diagnosis-info-btn {
+    background-color: transparent;
+    border:none;
+    color:navy;
+}
+
+.diagnosis-grid-container {
+
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content:flex-start;  
+
+}
+
+.diagnosis-results {
+    border: 1px solid;
+    flex: 1 0 33%;
+    text-align:left;
+}
+
+.possible-illness-header {
+    margin-top:16px;
+}

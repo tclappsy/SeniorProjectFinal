@@ -1,0 +1,44 @@
+.symptom-modal-container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.3);
+    z-index: 999;
+}
+
+.symptom-modal {
+    position: relative;
+    width: 900px;
+    max-height: 700px;
+    overflow: auto;
+    background-color: #FFFFFF;
+}
+
+.symptom-modal-header {
+    text-align: left;
+    padding: 0.5rem;
+    border-bottom: solid 1px;
+}
+
+.symptom-modal-body {
+    text-align: left;
+    padding: 2rem;
+}
+
+.symptom-modal-footer {
+    text-align: right;
+    padding: 0.5rem;
+    border-top: solid 1px;
+}
+
+.symptom-modal-buttons {
+    border-radius:50px;
+}
+
+.illness-header {
+    font-size:24px;
+    color:navy;
+}

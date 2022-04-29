@@ -1,0 +1,39 @@
+
+.symptoms-feature {
+    margin-top:1rem;
+    text-align: center;
+}
+
+.symptoms-feature h3 {
+    font-size:24px;
+}
+
+.add-symptoms-btn {
+    margin-left:8px;
+    margin-top:3px;
+}
+
+.selected-symptoms, .selected-symptoms li {
+    font-size:18px;
+    list-style: none;
+}
+
+.delete-symptoms-btn {
+    background-color: transparent;
+    border:none;
+}
+
+.diagnosis-item {
+    flex: 1 1 auto;
+    padding: 1rem;
+    border: solid 1px;
+    border-radius: 25px;
+}
+
+.diagnose-btn {
+    margin-top:8px;
+}
+
+.reset-btn {
+    margin-top:8px;
+}

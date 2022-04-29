@@ -1,0 +1,23 @@
+.wrapper {
+    text-align: center;
+}
+
+.header {
+    font-size:30px;
+    margin-top:10px;
+}
+
+.redirect_login {
+    width:30%;
+}
+
+.login_redirect2 {
+    margin-top:10px;
+    color:rgb(0, 0, 0);
+}
+
+.err_image {
+    height:200px;
+    width:200px;
+    margin-top: 60px;
+}

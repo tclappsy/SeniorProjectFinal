@@ -1,0 +1,39 @@
+
+.home-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.home-get-started h3 {
+    color:navy
+}
+
+.home-welcome {
+    text-align:center;
+    margin:none;
+    margin-bottom:-20px;
+}
+
+.home-welcome i {
+    color: navy;
+    border:1px black;
+}
+
+.home-diagnosis a, .home-map a, .home-profile a {
+    text-decoration: none;
+    color:navy;
+    border-radius: none;
+    background-color: none;
+}
+
+
+.home-diagnosis a:hover, .home-map a:hover, .home-profile a:hover {
+    border-radius: 5px;
+    background-color: white;
+}
+
+.logo {
+    height:120px;
+    width:120px;
+}
+

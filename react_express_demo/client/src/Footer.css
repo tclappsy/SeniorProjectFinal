@@ -1,0 +1,30 @@
+footer {
+    margin-top: auto;
+}
+
+.footer-container {
+    background-color: navy;
+    color: white;
+    padding: 0.25rem;
+    
+}
+
+.footer-left{
+    text-align:left
+}
+
+.footer-middle {
+    text-align: center;
+}
+
+.footer-right {
+    text-align: right;
+}
+
+.about-route {
+    text-decoration: none;
+    color:white;
+}
+
+
+

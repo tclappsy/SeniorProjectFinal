@@ -1,0 +1,40 @@
+.login-page-left-col {
+    background-color: white;
+}
+
+.login-page-right-col {
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(37,145,251,0.98) 0.1%, rgba(0,7,128,1) 99.8% ); 
+    background-repeat:no-repeat;
+    
+}
+
+.login-logo-img-container {
+    height: 220px;
+    width: 220px;
+}
+
+.home-summary {
+    font-size:20px;
+    text-align: center;
+    margin-top: -20px;
+}
+
+.site-header {
+    text-align: center;
+}
+
+.home-button-container{
+    text-align: center;
+    margin-top:16px;
+}
+
+.home-btn {
+    width:30%;
+}
+
+.home-description {
+    width: 50%;
+
+}
+
+
