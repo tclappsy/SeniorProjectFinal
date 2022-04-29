@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Pokemon Practice</title>
+
+</head>
+<body>
+
+    
+    <div class = "user_input">
+        <label>Enter Pokemon</label>
+        <input id = "input" type = "text">
+        <button id = "button" onclick = "displayData()">Search</button>
+        <button id = "clear_button" onclick = "clear_input()">Clear</button>
+    </div>
+
+    <div class = "error">
+        <i><strong><p id = "error_message"></p></strong></i>
+    </div>
+
+    <div class = "pokemon">
+        <h3 id = "pokemon_name"></h3>
+        <img src = "" id = "pokemon_sprite_front">
+        <img src = "" id = "pokemon_sprite_shiny">
+        <p id = "pokemon_id"></p>
+
+        <div class = "add_pokemon">
+            <button id = "add_button" style = "display:none" onclick = "add_pokemon()">Add to team?</button>
+            <button id = "clear_party" style = "display:none" onclick = "clearParty()">Clear Party</button>
+        </div>
+
+        <i><strong><p id = "party_limit_error"></p></strong></i>
+
+    </div>
+
+    <div class = "pokemon_team">
+        <ol id = "pokemon_list"></ol>
+        <!-- <img src = "" id = "team_sprite"> -->
+    </div>
+
+   
+
+    <script src = "script.js"></script>
+</body>
+</html>
